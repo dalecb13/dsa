@@ -31,11 +31,10 @@ const reverseAndPreserve = (inputString: string): string => {
   return outputString;
 }
 
-const driver = () => {
+const reverseStringPreserveSpacesDriver = () => {
   console.log(reverseAndPreserve("internship at geeks for geeks"))
   console.log(reverseAndPreserve("abc de"))
   console.log(reverseAndPreserve("Help others"))
 }
 
-
-driver();
+reverseStringPreserveSpacesDriver();
